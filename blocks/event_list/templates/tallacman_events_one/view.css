@@ -1,0 +1,68 @@
+/*  tallacman event list display one -- January 7, 2019  */
+.tallacman-event-list-base div.ccm-block-calendar-event-list-event {
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+
+.tallacman-event-list-base .ccm-block-calendar-event-meta-data {
+  margin: 22px 0;
+}
+
+.tallacman-event-list-base .ccm-block-calendar-event-list-event-date {
+  width: 68px;
+  float: left;
+  margin-right: 2vw;
+}
+
+.tallacman-event-list-base .ccm-block-calendar-event-list-event-description {
+  clear: left;
+  padding-top: 14px;
+}
+
+/*   hide the year to match the core block?  after I added it in.  */
+
+.tallacman-event-list-base span.year-display {
+  display: none !important;
+}
+
+.tallacman-event-list-base .ccm-block-calendar-event-list-event-date span {
+  display: block;
+  text-align: center;
+}
+
+.tallacman-event-list-base span.month-display {
+  text-transform: uppercase;
+  background: #e0e3e3;
+}
+
+.tallacman-event-list-base .ccm-block-calendar-event-list-event-date {
+  border: 1px solid silver;
+}
+
+.tallacman-event-list-base span.day-display {
+  font-weight: bold;
+  font-size: 170%;
+}
+.tallacman-event-list-base .ccm-block-calendar-event-list-event-title {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.tallacman-event-list-base .ccm-block-calendar-event-list-event-date-full {
+	font-style: italic;
+}
+div.ccm-block-calendar-event-list-event {
+	border-bottom: 1px solid silver;
+	margin-bottom: 32px;
+	padding-bottom: 6px;
+}
+
+div.ccm-block-calendar-event-list-event:hover span.day-display {
+	color: red;
+}
+
+div.ccm-block-calendar-event-list-event:hover span.month-display {
+	background-color: black;
+	color: white;
+}

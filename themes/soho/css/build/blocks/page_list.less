@@ -1,0 +1,37 @@
+// my rethinking the core block :: this overrides it
+
+.ccm-block-page-list-page-entry-grid-thumbnail {
+	position: relative;
+}
+div.blog-post-meta {
+	padding: 25px 0;
+}
+@media screen and (min-width: @breakpoint-md) {
+	div.blog-post-meta {
+		position: absolute;
+		background-color: white;
+		z-index: 1;
+		padding: 25px 25px 25px 0;
+		bottom: -1px;
+	}
+}
+// tallacman engadget template -- January 5, 2019
+.tallacman-engadget .ccm-block-page-list-page-entry-horizontal {
+	position: relative;
+	margin-bottom: 1rem;
+}
+
+.tallacman-engadget .ccm-block-page-list-page-entry-text {
+	position: block;
+	bottom: -1px;
+	background-color: white;
+	z-index: 1;
+	padding: 2vw;
+}
+@media screen and (min-width: @breakpoint-md) {
+.tallacman-engadget .ccm-block-page-list-page-entry-text {
+		position: absolute;
+		max-width: 66%;
+	}
+}
+/*   end    */

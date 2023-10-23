@@ -1,0 +1,174 @@
+@preset-name: "Defaults";
+@preset-icon: concrete-icon(#9a25a4, #ffffff, #333333);
+@preset-fonts-file: "build/fonts/defaults.less";
+
+/*   from bs4.2.1    */
+// colors
+
+@pink-color: #e83e8c; // used for code ONLY
+@yellow-color: #ffc107;
+@white-color: #ffffff;
+@gray-color: #6c757d;
+@gray-dark-color: #444444;
+
+@primary-color: #007bff; // bs4 reboot
+@secondary-color: #6c757d;
+@success-color: #28a745;
+@info-color: #17a2b8;
+@warning-color: #ffc107;
+@danger-color: #dc3545;
+
+@light-color: #f8f9fa;
+@dark-color: #999999;
+
+// breakpoints
+@breakpoint-xs: 0;
+@breakpoint-sm: 576px;
+@breakpoint-md: 768px;
+@breakpoint-lg: 992px;
+@breakpoint-xl: 1200px;
+
+// some sensible settings
+@html-font-size: 16px; // used by reboot to set html font size, duh
+@theme-border-radius: 2px;
+@transition-normal: all ease 0.3s;
+@transition-fast: all ease 0.1s;
+@transition-slow: all ease 0.6s;
+
+// FONT STACK PER HTML5 BASE
+
+@recommended-font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hind Madurai", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+
+// body
+
+
+@body-type-font-family: ~"Hind Madurai, 'Open Sans', @recommended-font-stack";
+@body-type-color: #222222;
+@body-type-font-size: 1.15em;
+@body-type-font-weight: 300;
+@body-type-font-line-height: 1.55;
+
+
+// headers h1 - h6 general
+
+@header-type-font-family: Oswald, ~"'Open Sans', @recommended-font-stack";
+
+// from core
+@header-type-font-line-height: 1.1; // defined for all in bs4 type.less
+
+// none | capitalize | uppercase | lowercase | full-width
+
+@h1-type-font-family: ~"Montserrat, 'Open Sans Condensed', Helvetica, Arial, sans-serif";
+@h1-type-color: #1a1a1a;
+@h1-type-font-size: 2.8em;
+@h1-type-font-weight: 600;
+@h1-type-text-transform: capitalize;
+
+
+@h2-type-font-family: ~"Montserrat, 'Open Sans', Helvetica, Arial, sans-serif";
+@h2-type-color: #1a1a1a;
+@h2-type-font-size: 1.46em;
+@h2-type-font-weight: 800;
+@h2-type-text-transform: capitalize;
+
+
+@h3-type-font-family: ~"Montserrat, 'Open Sans', Helvetica, Arial, sans-serif";
+@h3-type-color: #ff05c4;
+@h3-type-font-size: 1.25em;
+@h3-type-font-weight: 400;
+@h3-type-text-transform: capitalize;
+
+
+@h4-type-font-family: ~"Oswald, 'Open Sans', Helvetica, Arial, sans-serif";
+@h4-type-color: #4f585c;
+@h4-type-font-size: 1.2em;
+@h4-type-font-weight: 300;
+@h4-type-text-transform: capitalize;
+
+
+@h5-type-font-family: ~"Oswald, 'Open Sans', Helvetica, Arial, sans-serif";
+@h5-type-color: #9fa9ad;
+@h5-type-font-size: 1.1em;
+@h5-type-font-weight: 400;
+@h5-type-text-transform: uppercase;
+
+
+@h6-type-font-family: ~"Oswald, 'Open Sans', Helvetica, Arial, sans-serif";
+@h6-type-color: #0c224d;
+@h6-type-font-size: 1em;
+@h6-type-font-weight: 200;
+@h6-type-text-transform: uppercase ;
+
+/*
+
+@display-type-font-family: ~"Oswald, 'Open Sans', Helvetica, Arial, sans-serif";
+@display-type-color: #111111;
+@display-type-font-size: 2.2em;
+@display-type-font-weight: 200;
+     */
+
+@font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+
+// HEADER COLORS EXCLUSIVE OF NAV
+@header-bottom-border-color: #ffffff;
+@header-background-color: #ffffff;
+@header-sitename-color: #333333;
+
+//  NAVIGATION
+@mobile-menu-activation-size: @breakpoint-md;
+@navigation-hamburger-color: black;
+
+
+    // second lavel
+@navigation-link-color: #000000;
+@navigation-hover-color: #cd0bc6;
+@navigation-arrow-color: inherit;
+
+    // desktop spcific header menu
+@dropdown-link-color: #ffffff;
+@dropdown-background-color: #333;
+    // and hovers
+@dropdown-link-hover-color: #ff05c4;
+@dropdown-background-hover-color: #eeeeee ;
+
+// BODY LINKS -- todo move this to font picker - February 13, 2019
+
+@anchor-color: #ff05c4;
+@anchor-hover-color: #000000;
+
+// FEATURE block
+@feature-icon-color: #ffffff;
+@feature-icon-border-color: #999999;
+@feature-icon-background-color: #333333;
+    // and hover
+@feature-icon-hover-color: #333333;
+@feature-icon-border-hover-color: #222222;
+@feature-icon-background-hover-color: #ffffff;
+
+// BUTTONS
+@button-text-color: #333333;
+@button-background-color:#ffffff;
+@button-border-color:#333333;
+    // and hover
+@button-text-hover-color: #ffffff;
+@button-background-hover-color:#333333;
+@button-border-hover-color:#333333;
+
+/// FOOTER
+@footer-background-color: #f6f6f6;
+@footer-text-color: #555555;
+
+// BLOCKQUOTE
+@blockquote-padding-size: 35px;
+@blockquote-border-color: #777777;
+@blockquote-type-font-family: ~"'Open Sans', Helvetica, Arial, sans-serif";
+@blockquote-type-color: #111111;
+@blockquote-type-font-size: 1.05em;
+@blockquote-type-font-weight: 600;
+
+// TRIAL TO MAKE FONTS SMALLER ON SMALLER screens
+// not in use yet -- February 13, 2019
+@font-adjust-size: 100.00;
+@font-adjust-factor: @font-adjust-size / 100;

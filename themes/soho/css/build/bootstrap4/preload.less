@@ -1,0 +1,35 @@
+/*  protect core from styles */
+body  .ccm-page{
+  font-family: @body-type-font-family;
+  font-size: @body-type-font-size;
+  font-weight: @body-type-font-weight;
+  line-height: @body-type-font-line-height;
+  color: @body-type-color;
+}
+/*  this exists outside of .ccm-page -- see above :: tallacman February 4, 2019  */
+body{
+  margin: 0
+}
+/*
+
+@media (min-width: @breakpoint-sm) {
+  body {
+    font-size: calc(@html-font-size);
+  }
+}
+@media (min-width: @breakpoint-md) {
+  body {
+    font-size: calc(@html-font-size * 1.117);
+  }
+}
+@media (min-width: @breakpoint-lg) {
+  body {
+    font-size: calc(@html-font-size * 1.14);
+  }
+}
+@media (min-width: @breakpoint-xl) {
+  body {
+    font-size: calc(@html-font-size * 1.18);
+  }
+}
+  */

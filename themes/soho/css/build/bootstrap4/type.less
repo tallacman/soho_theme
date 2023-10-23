@@ -1,0 +1,316 @@
+.h1,
+.h1 a,
+.h2,
+.h2 a,
+.h3,
+.h3 a,
+.h4,
+.h4 a,
+.h5,
+.h5 a,
+.h6,
+.h6 a,
+h1,
+h1 a,
+h2,
+h2 a,
+h3,
+h3 a,
+h4,
+h4 a,
+h5,
+h5 a,
+h6,
+h6 a {
+  margin-bottom: 1.5rem; //  font-family: @header-type-font-family;
+  //  font-weight: @header-type-font-weight;
+  line-height: @header-type-font-line-height; //  color: @header-type-color;
+}
+
+.h1,
+h1 {
+  font-family: @h1-type-font-family;
+  color: @h1-type-color;
+  font-size: @h1-type-font-size;
+  font-weight: @h1-type-font-weight;
+  text-transform: @h1-type-text-transform;
+}
+
+.h2,
+h2 {
+  font-family: @h2-type-font-family;
+  color: @h2-type-color;
+  font-size: @h2-type-font-size;
+  font-weight: @h2-type-font-weight;
+  text-transform: @h2-type-text-transform;
+
+}
+
+.h3,
+h3 {
+  font-family: @h3-type-font-family;
+  color: @h3-type-color;
+  font-size: @h3-type-font-size;
+  font-weight: @h3-type-font-weight;
+  text-transform: @h3-type-text-transform;
+
+}
+
+.h4,
+h4 {
+  font-family: @h4-type-font-family;
+  color: @h4-type-color;
+  font-size: @h4-type-font-size;
+  font-weight: @h4-type-font-weight;
+  text-transform: @h4-type-text-transform;
+
+}
+
+.h5,
+h5 {
+  font-family: @h5-type-font-family;
+  color: @h5-type-color;
+  font-size: @h5-type-font-size;
+  font-weight: @h5-type-font-weight;
+  text-transform: @h5-type-text-transform;
+
+}
+
+.h6,
+h6 {
+  font-family: @h6-type-font-family;
+  color: @h6-type-color;
+  font-size: @h6-type-font-size;
+  font-weight: @h6-type-font-weight;
+  text-transform: @h6-type-text-transform;
+
+}
+/*
+
+@media (min-width: @breakpoint-sm) {
+  .h1,
+  h1 {
+    font-size: calc(@html-font-size * 1.9);
+  }
+
+  .h2,
+  h2 {
+    font-size: calc(@html-font-size * 1.7);
+  }
+
+  .h3,
+  h3 {
+    font-size: calc(@html-font-size * 1.5);
+  }
+
+  .h4,
+  h4 {
+    font-size: calc(@html-font-size * 1.3);
+  }
+
+  .h5,
+  h5 {
+    font-size: calc(@html-font-size * 1.2);
+  }
+
+  .h6,
+  h6 {
+    font-size: calc(@html-font-size * 1);
+  }
+}
+@media (min-width: @breakpoint-md) {
+  .h1,
+  h1 {
+    font-size: calc(@html-font-size * 2.2);
+  }
+
+  .h2,
+  h2 {
+    font-size: calc(@html-font-size * 2.1);
+  }
+
+  .h3,
+  h3 {
+    font-size: calc(@html-font-size * 1.5);
+  }
+
+  .h4,
+  h4 {
+    font-size: calc(@html-font-size * 1.3);
+  }
+
+  .h5,
+  h5 {
+    font-size: calc(@html-font-size * 1.2);
+  }
+
+  .h6,
+  h6 {
+    font-size: calc(@html-font-size * 1);
+  }
+}
+
+@media (min-width: @breakpoint-xl) {
+  .h1,
+  h1 {
+    font-size: calc(@html-font-size * 2.2);
+  }
+
+  .h2,
+  h2 {
+    font-size: calc(@html-font-size * 2.1);
+  }
+
+  .h3,
+  h3 {
+    font-size: calc(@html-font-size * 1.9);
+  }
+
+  .h4,
+  h4 {
+    font-size: calc(@html-font-size * 1.7);
+  }
+
+  .h5,
+  h5 {
+    font-size: calc(@html-font-size * 1.5);
+  }
+
+  .h6,
+  h6 {
+    font-size: calc(@html-font-size * 1.3);
+  }
+}
+
+  */
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.small,
+small {
+  font-size: 80%;
+  font-weight: 400;
+}
+
+.mark,
+mark {
+  padding: 0.2em;
+  background-color: #fcf8e3;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline-item {
+  display: inline-block;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.initialism {
+  font-size: 90%;
+  text-transform: uppercase;
+}
+
+.blockquote {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.blockquote-footer {
+  display: block;
+  font-size: 80%;
+  color: @secondary-color;
+}
+
+.blockquote-footer::before {
+  content: "\2014\00A0";
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: @white-color;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.figure {
+  display: inline-block;
+}
+
+.figure-img {
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.figure-caption {
+  font-size: 90%;
+  color: @secondary-color;
+}
+
+code {
+  font-size: 87.5%;
+  color: #e83e8c;
+  word-break: break-word;
+}
+
+a > code {
+  color: inherit;
+}
+
+kbd {
+  padding: 0.2rem 0.4rem;
+  font-size: 87.5%;
+  color: @white-color;
+  background-color: #212529;
+  border-radius: 0.2rem;
+}
+
+kbd kbd {
+  padding: 0;
+  font-size: 100%;
+  font-weight: 700;
+}
+
+pre {
+  display: block;
+  font-size: 87.5%;
+  color: #212529;
+}
+
+pre code {
+  font-size: inherit;
+  color: inherit;
+  word-break: normal;
+}
+
+.pre-scrollable {
+  max-height: 340px;
+  overflow-y: scroll;
+}

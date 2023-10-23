@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<styles version="1.0">
+
+  <set name="Header">
+      <style name="Header Bottom Border" variable="header-bottom-border" type="color"/>
+      <style name="Header Background" variable="header-background" type="color"/>
+
+  </set>
+  <set name="Header Navigation">
+      <style name="Nav Link" variable="navigation-text" type="color"/>
+      <style name="Nav Active and Hover" variable="navigation-hover" type="color"/>
+      <style name="Dropdown Background" variable="dropdown-background" type="color"/>
+      <style name="Dropdown Link" variable="dropdown-link" type="color"/>
+      <style name="Dropdown Background Hover" variable="dropdown-background-hover" type="color"/>
+      <style name="Dropdown Link Hover" variable="dropdown-link-hover" type="color"/>
+
+  </set>
+
+  <set name="Fonts">
+    <style name="Text" variable="body" type="type" />
+      <style name="Heading 1" variable="h1" type="type" />
+      <style name="Heading 2" variable="h2" type="type" />
+      <style name="Heading 3" variable="h3" type="type" />
+      <style name="Heading 4" variable="h4" type="type" />
+      <style name="Heading 5" variable="h5" type="type" />
+      <style name="Heading 6" variable="h6" type="type" />
+      <style name="Display" variable="display" type="type" />
+
+  </set>
+
+  <set name="Body Links">
+    <style name="Links" variable="anchor" type="color" />
+    <style name="Link Background" variable="anchor-background" type="color" />
+
+    <style name="Link Hover" variable="anchor-hover" type="color" />
+    <style name="Background Color Hover" variable="anchor-background-hover" type="color" />
+
+  </set>
+
+  <set name="Footer">
+    <style name="Footer Text" variable="footer-text" type="color" />
+    <style name="Footer Backround" variable="footer-background" type="color" />
+  </set>
+
+  <set name="Buttons">
+    <style name="Text" variable="button-text" type="color" />
+    <style name="Background" variable="button-background" type="color" />
+    <style name="Border" variable="button-border" type="color" />
+
+    <style name="Text Hover" variable="button-text-hover" type="color" />
+    <style name="Background Hover" variable="button-background-hover" type="color" />
+    <style name="Border Hover" variable="button-border-hover" type="color" />
+  </set>
+
+  <set name="Feature Block">
+    <style name="Icon" variable="feature-icon" type="color" />
+    <style name="Icon Border" variable="feature-icon-border" type="color" />
+    <style name="Icon Background" variable="feature-icon-background" type="color" />
+
+    <style name="Icon Hover" variable="feature-icon-hover" type="color" />
+    <style name="Icon Border Hover" variable="feature-icon-border-hover" type="color" />
+    <style name="Icon Background Hover" variable="feature-icon-background-hover" type="color" />
+  </set>
+
+  <set name="Blockquote">
+      <style name="Text" variable="blockquote" type="type" />
+      <style name="Padding" variable="blockquote-padding" type="size" />
+      <style name="Border Color" variable="blockquote-border" type="color" />
+  </set>
+
+</styles>

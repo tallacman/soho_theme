@@ -1,0 +1,73 @@
+/* dropdown nav pushed right */
+// Nav link colors
+// HEADER NAVIGATION ONLY
+header {
+	nav a {
+		text-decoration: none !important;
+		background-color: inherit;
+	}
+
+	nav ul li a:hover {
+		text-decoration: none !important;
+		background-color: inherit;
+	}
+
+	nav ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	nav li {
+		font-size: inherit;
+		padding: 0;
+		margin: 0;
+		display: inline-block;
+		position: relative;
+	}
+
+	nav ul li a {
+		text-decoration: none;
+		padding: 10px;
+		display: block;
+		color: @navigation-link-color;
+	}
+
+	nav ul li a:hover {
+		color: @navigation-hover-color;
+	}
+
+	nav ul li a.nav-path-selected {
+		color: @navigation-hover-color;
+	}
+	/*   > second level links   THERE BE DROPDOWNS HERE  */
+	nav ul ul {
+		display: none;
+		position: absolute;
+		left: 0; // change to right or left for different offsets
+		z-index: 101;
+		width: 250px;
+	}
+
+	nav ul ul li {
+		width: 100%;
+	}
+
+	nav ul li:hover ul {
+		display: block;
+		text-align: left; // change to left, right or center for text alignment within the li
+	}
+
+	nav ul ul li a {
+		padding: 10px;
+		display: block;
+		color: @dropdown-link-color;
+		text-decoration: none !important;
+		background-color: @dropdown-background-color;
+	}
+
+	nav ul ul li a:hover {
+		text-decoration: none !important;
+		color: @dropdown-link-hover-color;
+		background-color: @dropdown-background-hover-color;
+	}
+}

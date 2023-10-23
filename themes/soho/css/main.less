@@ -1,0 +1,36 @@
+// main less concatenates all the less files into one import
+@import "presets/defaults.less";
+@import ~"@{preset-fonts-file}"; // no space after tilde
+@import "build/bootstrap4/reboot.less"; // pre-escaped for ccm-page
+@import "build/bootstrap4/preload.less"; // version 4.2.1 December 25, 2018 pre escaped
+@import "build/slicknav/slicknav.less";
+@import "build/theme-preload.less";  // pre-escaped for ccm-page
+
+.ccm-page {
+
+  @import "build/bootstrap.less"; // version 4.2.1 December 25, 2018
+
+  /*   blocks folder    */
+  @import "build/blocks/blockquote.less";
+
+  @import "build/blocks/breadcrumbs.less";
+  @import "build/blocks/buttons.less";
+  @import "build/blocks/faq.less";
+  @import "build/blocks/feature.less";
+  @import 'build/blocks/image_slider.less';
+  @import "build/blocks/page_list.less";
+  @import "build/blocks/page_title.less";
+  @import "build/blocks/page-navigation.less";
+  @import "build/blocks/topic-list.less";
+  @import "build/blocks/search.less";
+
+
+
+  @import "build/nav.less";
+  @import "build/tallacman_utilities.less";
+  @import "build/theme.less";
+  @import 'build/type_overrides.less';
+  @import "build/free-form-layout.less";
+
+}
+// move parens to end to namespace this code

@@ -1,0 +1,138 @@
+// LETS SIMPLIFY THIS MESS
+
+#slicknav *{
+  background-color: @header-background-color;
+  color: @navigation-link-color;
+}
+#slicknav a:hover,
+#slicknav a.nav-selected{
+color: @navigation-hover-color;
+}
+
+// END SIMPLE STUFF
+.slicknav_brand {
+	float: left;
+	font-size: 1.5rem;
+	padding: 7px 12px;
+}
+
+.slicknav_btn {
+	position: relative;
+	display: block;
+	float: right;
+	cursor: pointer;
+	text-decoration: none;
+	padding: 7px 12px;
+	font-size: 1.5em;
+}
+
+ul.slicknav li a {}
+
+.slicknav_menu {
+	*zoom: 1;
+
+	.slicknav_icon {
+		float: left;
+
+		&:before {
+			// Firefox Mobile v42 bugfix
+			width: 1.125em;
+			height: 0.875em;
+			display: block;
+			content: "";
+			position: absolute;
+		}
+	}
+
+	.slicknav_icon-bar {
+		display: block;
+	}
+
+	&:before {
+		content: " ";
+		display: table;
+	}
+
+	&:after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+}
+
+.slicknav_nav {
+	clear: both;
+
+	ul {
+		display: block;
+	}
+
+	li {
+		display: block;
+	}
+
+	.slicknav_arrow {
+		font-size: 0.8em;
+		margin: 0 0 0 0.4em;
+	}
+
+	.slicknav_item {
+		cursor: pointer;
+
+		a {
+			display: inline;
+		}
+	}
+
+	.slicknav_row {
+		display: block;
+	}
+
+	a {
+		display: block;
+	}
+
+	.slicknav_parent-link a {
+		display: inline;
+	}
+}
+
+.slicknav_nav {
+	margin: 0;
+	padding: 0;
+	font-size: 0.975rem;
+	list-style: none;
+	overflow: hidden;
+
+	ul {
+		list-style: none;
+		overflow: hidden;
+		padding: 0;
+		margin: 0 0 0 20px;
+	}
+
+	.slicknav_row {
+		padding: 5px 10px;
+		margin: 2px 5px;
+	}
+
+	a {
+		padding: 5px 10px;
+		margin: 2px 5px;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	.slicknav_txtnode {
+		margin-left: 15px;
+	}
+
+	.slicknav_item a,
+	.slicknav_parent-link a {
+		padding: 0;
+		margin: 0;
+	}
+}

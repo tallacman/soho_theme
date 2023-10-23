@@ -1,0 +1,10 @@
+div.tallacman-text-only .ccm-block-page-list-page-entry-text {
+	margin-bottom: 16px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid silver;
+}
+
+
+div.tallacman-text-only p.ccm-block-page-list-description {
+	padding-top: 10px;
+}

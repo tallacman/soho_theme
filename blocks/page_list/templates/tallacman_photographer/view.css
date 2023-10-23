@@ -1,0 +1,30 @@
+.tallacman-photographer .ccm-block-page-list-page-entry-horizontal {
+  position: relative;
+  margin-bottom: 27px;
+  padding-bottom: 2px;
+}
+
+.tallacman-photographer .ccm-block-page-list-page-entry-thumbnail {
+  padding: 1.5vw;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: inset 0 0 8px #888;
+  margin-bottom: 16px;
+}
+
+.tallacman-photographer h4 {
+  padding-bottom: 23px;
+  font-weight: 300 !important;
+  font-size: 2.2rem !important;
+  line-height: 1.1;
+}
+
+div.ccm-block-page-list-date.small {
+  text-align: right;
+  font-style: italic;
+}
+
+p.ccm-block-page-list-description {
+  padding: 19px 9vw 19px 0;
+  margin-top: 11px;
+}

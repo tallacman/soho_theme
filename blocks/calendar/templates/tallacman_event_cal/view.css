@@ -1,0 +1,61 @@
+.ccm-block-calendar-wrapper hr.fc-divider {
+  margin: 0;
+}
+
+div.ccm-block-calendar-event-dialog-details {
+  background: #FFF;
+  margin: 20px auto;
+  max-width: 500px;
+  position: relative;
+  width: auto;
+  border: 18px solid white;
+}
+
+div.ccm-block-calendar-event-dialog-details h3 {
+  margin-top: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 16px 0;
+}
+
+button.mfp-close {
+  background-color: white;
+  border-radius: 100%;
+  border: 1px solid gray;
+}
+
+button.mfp-close:hover {
+  background: silver;
+}
+
+div.ccm-block-calendar-event-dialog-details h1 {
+  font-weight: normal;
+  font-style: normal;
+  padding: 16px;
+  border-bottom: 1px solid silver;
+  border-top: 1px solid silver;
+  background-color: #333;
+  color: white;
+}
+
+div.ccm-block-calendar-event-dialog-details h2 {
+  text-align: center;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 150%;
+  padding: 16px;
+  border-bottom: 1px solid silver;
+  border-top: 1px solid silver;
+  background-color: #f2f2f2;
+}
+
+div.ccm-block-calendar-event-dialog-details h4 {
+  padding: 16px;
+  color: white;
+  background-color: #464646;
+}
+
+div.ccm-block-calendar-dialog-event-time {
+  margin-bottom: 5px;
+  font-style: italic;
+}

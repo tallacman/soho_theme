@@ -1,0 +1,28 @@
+h1.page-title.soho-headline {
+	text-transform: lowercase;
+	letter-spacing: 1.4px;
+	position: relative;
+	color: #6d6d6d;
+	margin-bottom: 2vmin;
+}
+
+h1.page-title.soho-headline:first-letter{
+	 color: #ff05c4;
+}
+h1.page-title.soho-headline:after{
+	
+	content: "";
+	position: absolute;
+	background-color: gray;
+	width: 22px;
+	height: 4px;
+	left: 0;
+	bottom: -18px;
+	transition: all ease 0.8s
+}
+h1.page-title.soho-headline:hover:after{
+	width: 99px;
+	height: 1px;
+	background-color: #ff05c4;
+
+}

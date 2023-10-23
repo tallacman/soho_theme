@@ -1,0 +1,9 @@
+.tallacman-clickable-page-list .ccm-block-page-list-page-entry-horizontal .ccm-block-page-list-page-entry-text {
+	padding: 3vw;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: 1px solid silver;
+	position: relative;
+	z-index: 1;
+	background-color: white;
+}
